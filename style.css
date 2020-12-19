@@ -1,0 +1,22 @@
+html {
+  overflow: hidden;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  margin: 0;
+  background-color: black;
+}
+
+#canvas {
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  width: 100vw;
+  height: 56.25vw;
+  max-width: 177.7vh;
+  max-height: 100vh;
+  border: 1px solid white;
+}
